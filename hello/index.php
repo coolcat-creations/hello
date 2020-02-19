@@ -1,9 +1,11 @@
 <?php
+use Joomla\CMS\Factory;
+
 defined('_JEXEC') or die;
 
 JHtml::_('stylesheet', 'template.css', array('version' => 'auto', 'relative' => true));
 
-$app = JFactory::getApplication();
+$app = Factory::getApplication();
 $params = $app->getTemplate(true)->params;
 $logo = $params->get('logoBild');
 $logotext = $params->get('logoText');

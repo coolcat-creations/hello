@@ -25,6 +25,9 @@ body {
 .logo {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
+}
+
+.logo a {
     text-transform: uppercase;
     letter-spacing: 0.5rem;
     font-size: 1.3rem;
@@ -32,7 +35,6 @@ body {
     color: #459651;
     text-decoration: none;
 }
-
 
 /* Navigation */
 

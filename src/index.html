@@ -6,7 +6,7 @@
 	</head>
 	<body>
 		<div class="container">
-			<nav>
+			<nav role="navigation" aria-label="MainMenu">
 				<ul>
 					<li><a href="#">Home</a></li>
 					<li><a href="#">Wir</a></li>
@@ -15,10 +15,12 @@
 				</ul>
 			</nav>
 
-			<a href="#" class="logo">
-				Hello!
-			</a>
-
+			<div class="logo" role="navigation" aria-label="Home">
+				<a href="#">
+					Hello!
+				</a>
+			</div>
+			
 			<main role="main" aria-labelledby="main-headline">
 				<h1 id="main-headline">Servus miteinand'</h1>
 					<img class="introbild bildeffekt" src="https://picsum.photos/250/200" alt="introimage"/>
@@ -26,7 +28,7 @@
 
 			</main>
 
-			<aside>
+			<aside role="navigation" aria-label="SubMenu">
 				<ul>
 					<li><a href="#">Menüpunkt 1</a></li>
 					<li><a href="#">Menüpunkt 2</a></li>
@@ -35,7 +37,7 @@
 				</ul>
 			</aside>
 
-			<footer>
+			<footer role="contentinfo" aria-label="CopyrightInformation">
 				<p>Host Europe Blogbeitrag</p>
 			</footer>
 

@@ -198,19 +198,19 @@ p {
 }
 
 
-aside {
+.sidebar {
     grid-column: 2 / 3;
     grid-row: 3 / 4;
 }
 
 
-aside nav > ul {
+.sidebar nav > ul {
     list-style: none;
     padding: 0;
     margin: 1.6rem 0;
 }
 
-aside nav > ul > li {
+.sidebar nav > ul > li {
     margin: 0;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
@@ -223,16 +223,16 @@ aside nav > ul > li {
     transition: all .5s;
 }
 
-aside nav > ul > li:hover {
+.sidebar nav > ul > li:hover {
     background-size: 100% 3.75rem;
 }
 
-aside nav > ul > li a {
+.sidebar nav > ul > li a {
     color: #459651;
     text-decoration: none;
 }
 
-aside nav > ul > li:hover a {
+.sidebar nav > ul > li:hover a {
     color: #ffffff;
 }
 
@@ -295,7 +295,7 @@ footer {
         grid-row: 2 / 3;
     }
 
-    aside {
+    .sidebar {
         grid-column: 1 / 2;
         grid-row: 2 / 3;
     }
@@ -370,7 +370,7 @@ footer {
         box-shadow: 1rem 1rem #459651;
     }
 
-    aside {
+    .sidebar {
         grid-column: 1 / 1;
         grid-row: 4 / 5;
     }

@@ -49,7 +49,7 @@ JHtml::_('behavior.caption');
 	<?php endif; ?>
 	<?php if ($params->get('show_title')) : ?>
 	<div class="page-header">
-		<h1 itemprop="headline">
+		<h1 itemprop="headline" id="main-headline">
 			<?php echo $this->escape($this->item->title); ?>
 		</h1>
 		<?php if ($this->item->state == 0) : ?>

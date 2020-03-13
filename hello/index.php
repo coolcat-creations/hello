@@ -33,7 +33,7 @@ $logotext = $params->get('logoText');
 	<?php endif; ?>
 
 
-	<main>
+	<main role="main" aria-labelledby="main-headline">
 		<jdoc:include type="component" />
 	</main>
 
